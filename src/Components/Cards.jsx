@@ -79,7 +79,7 @@ function GridExample() {
           </Col>
           <Col>
           <motion.div
-          whileHover={{ scale: 1.2 ,
+          whileHover={{ scale: 1.1,
             transition: { duration: 1 },
 
           }}
@@ -103,7 +103,7 @@ function GridExample() {
           </Col>
           <Col>
           <motion.div
-          whileHover={{ scale: 1.2 ,
+          whileHover={{ scale: 1.1 ,
             transition: { duration: 1 },
 
           }}
@@ -131,7 +131,7 @@ function GridExample() {
     <Row>
         <Col>
         <motion.div
-          whileHover={{ scale: 1.2 ,
+          whileHover={{ scale: 1.1 ,
             transition: { duration: 1 },
 
           }}
@@ -155,7 +155,7 @@ function GridExample() {
           </Col>
           <Col>
           <motion.div
-          whileHover={{ scale: 1.2 ,
+          whileHover={{ scale: 1.1 ,
             transition: { duration: 1 },
 
           }}
@@ -179,7 +179,7 @@ function GridExample() {
           </Col>
           <Col>
           <motion.div
-          whileHover={{ scale: 1.2 ,
+          whileHover={{ scale: 1.1,
             transition: { duration: 1 },
 
           }}

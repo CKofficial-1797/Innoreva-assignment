@@ -1,6 +1,6 @@
 // 2.	Develop an animated web-based app for a product of your choice.
 
-// import './App.css'
+import './App.css'
 // import "./scroll.js"
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import $ from 'jquery'; 
@@ -12,7 +12,9 @@ import Cards from "./Components/Cards"
 import Footer from "./Components/Footer/Footer.jsx"
 import Loading from "./Components/Loading"
 import React, { useState, useEffect } from 'react';
-import Text from "./Components/Text/Text.jsx"
+import Text from "./Components/Text/Text.jsx";
+import Drag from "./Components/Drag/Drag.jsx"
+import Circle from "./Components/Circle/Circle.jsx"
 // import SignIn from "./Components/SignIn/SignIn"
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -36,9 +38,18 @@ function App() {
        <Text/>
        
        {/* <SignIn/> */}
-       
+        
        <Carosuel/>
+       {/* <Circle/> */}
+       
        <Cards/>
+       <Drag />
+       {/* <div className="text">
+        drag
+       </div> */}
+       
+      
+       
       
      <Footer/>
      </>

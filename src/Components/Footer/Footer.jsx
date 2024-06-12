@@ -1,4 +1,4 @@
-import React from "react";
+import React ,{useRef} from "react";
 import {
     Box,
     FooterContainer,
@@ -7,8 +7,24 @@ import {
     FooterLink,
     Heading,
 } from "./FooterStyles";
+import {motion} from "framer-motion"
+
+
+ function Component() {
+    const scrollRef = useRef(null)
+    
+    return (
+      <div ref={scrollRef} style={{ overflow: "scroll" }}>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ root: scrollRef }}
+        >HELLO</motion.div>
+      </div>
+    )
+  }
  
-const Footer = () => {
+export const Footers = () => {
     return (
         <Box>
             <h1
@@ -119,4 +135,25 @@ const Footer = () => {
         </Box>
     );
 };
+const Footer=()=>{
+    const scrollRef = useRef(null)
+    
+    return (
+      <div ref={scrollRef} style={{ overflow: "scroll" }}>
+        <motion.div
+          initial={{ opacity: 0.3 }}
+          whileInView={{ opacity: 1}}
+          viewport={{ root: scrollRef }}  
+          whileHover={{scale: 1.08 ,
+            duration: 1000
+        }}  
+        >
+            <Footers/>
+        </motion.div>
+      </div>
+    )
+  }
+
+
 export default Footer;
+// export {Component} ;

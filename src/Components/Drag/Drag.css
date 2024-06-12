@@ -1,0 +1,24 @@
+/* body {
+    background: #222;
+    margin: 0;
+  } */
+  
+  .box {
+    font-family: sans-serif;
+    text-align: center;
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    margin: 0;
+    padding: 0;
+    perspective: 1000px;
+    overflow: hidden;
+    flex-direction:column;
+    margin-top:30px
+  }
+  .text{
+    opacity:0.48
+  }
+  

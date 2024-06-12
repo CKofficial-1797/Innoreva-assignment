@@ -36,8 +36,8 @@ export default function Loading() {
 				width={50}
 			/> */}
 
-
-            <img src="https://htmlburger.com/blog/wp-content/uploads/2021/07/The-Best-50-Website-Preloaders-Around-the-Web-Example-13.gif" alt="gif" />
+			<img src={gif} alt="" />
+            {/* <img src="https://htmlburger.com/blog/wp-content/uploads/2021/07/The-Best-50-Website-Preloaders-Around-the-Web-Example-13.gif" alt="gif" /> */}
             {/* <ReactPlayer url={'https://cdn.dribbble.com/users/76454/screenshots/17555850/media/447160ab3c6e2b6bfb227f09e607e228.mp4'} controls={true} /> */}
 
 

@@ -10,11 +10,7 @@ export default function Brands(){
        
       
        <div class="card-deck">
-       <motion.div
-          initial={{ top:"15rem" }}
-          whileInView={{ top: "0" }}
-          transition={transition}
-        >
+       
 
         
         <div class="card">
@@ -24,19 +20,15 @@ export default function Brands(){
           </div>
 
         </div>
-        </motion.div>
-        <motion.div
-          initial={{ top:"15rem" }}
-          whileInView={{ left: "0" }}
-          transition={transition}
-        >
+        
+      
         <div class="card">
           <img src="https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dw83957d1f/images/homepage/desktop/Streetwear_Desktop.jpg" class="card-img-top" alt="..."/>
           <div class="card-body">
             <h5 class="card-title">Analog watches</h5>
           </div>
         </div>
-        </motion.div>
+            
         <div class="card">
           <img src="https://thumbs.dreamstime.com/b/beautiful-happy-long-hair-young-woman-listening-music-wir-wireless-yellow-headphone-looking-up-dark-black-background-93938255.jpg" class="card-img-top" alt="..."/>
           <div class="card-body">

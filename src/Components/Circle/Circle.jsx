@@ -4,7 +4,9 @@ import "./Circle.css"
 export default function Circle() {
 return(
     <>
-    <div className="w-mainCirclec">
+    <div className="bigboss">
+    
+    <div className="w-mainCircle">
 
 <motion.div
 initial={{ rotate: 45 }}
@@ -32,6 +34,7 @@ className="w-mainCircle"
 <div className="w-backCircle blueCircle"></div>
 <div className="w-backCircle yellowCircle"></div>
 </div> 
+</div>
 </>
 )
 

@@ -15,6 +15,10 @@ import React, { useState, useEffect } from 'react';
 import Text from "./Components/Text/Text.jsx";
 import Drag from "./Components/Drag/Drag.jsx"
 import Circle from "./Components/Circle/Circle.jsx"
+import Brands from './Components/Brands/Brands.jsx'
+import ShopFor from "./Components/ShopFor/ShopFor.jsx"
+import NewCircle from "./Components/NewCircle/NewCircle.jsx"
+import Collection from "./Components/Collection/Collection.jsx"
 // import SignIn from "./Components/SignIn/SignIn"
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -40,9 +44,13 @@ function App() {
        {/* <SignIn/> */}
         
        <Carosuel/>
-       {/* <Circle/> */}
+       <Brands/>
+       <ShopFor/>         
+     
        
        <Cards/>
+       <NewCircle/>
+       {/* <Collection/> */}
        <Drag />
        {/* <div className="text">
         drag

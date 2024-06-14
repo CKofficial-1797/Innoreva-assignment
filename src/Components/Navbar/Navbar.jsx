@@ -11,7 +11,7 @@ function NavScrollExample() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid>
-        <Navbar.Brand href="#">
+        <Navbar.Brand href="WatchX.com">
         
       {text.map((el, i) => (
         <motion.span
@@ -35,11 +35,11 @@ function NavScrollExample() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1">HOME</Nav.Link>
-            <Nav.Link href="#action2">SMART WATCHES</Nav.Link>
+            <Nav.Link href="#HOME">HOME</Nav.Link>
+            <Nav.Link href="#SMART WATCHES">SMART WATCHES</Nav.Link>
             <NavDropdown title="BUY" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">OFFERS</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
+              <NavDropdown.Item href="#OFFERS">OFFERS</NavDropdown.Item>
+              <NavDropdown.Item href="#GIFTING">
                 GIFTING
               </NavDropdown.Item>
               <NavDropdown.Divider />

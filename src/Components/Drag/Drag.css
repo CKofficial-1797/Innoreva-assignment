@@ -16,7 +16,8 @@
     perspective: 1000px;
     overflow: hidden;
     flex-direction:column;
-    margin-top:30px
+    margin-top:50px;
+    padding:30px;
   }
   .text{
     opacity:0.48

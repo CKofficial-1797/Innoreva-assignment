@@ -1,0 +1,34 @@
+.sep2{
+    height: 30px;
+}
+.rounded-circle{
+    width:140px;
+    height:140px;
+}
+.row{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    /* margin-left:0px */
+    justify-content: center;
+    column-gap:6rem;
+    margin-bottom: 50px;
+    
+
+}
+.adv{
+    
+    width: 100%;
+    /* transform: scale(0.8);  */
+     height: 50px;
+     /* width:90%; */
+     /* padding:20px; */
+
+      margin: 20px;
+      /* overflow: hidden; */
+}
+.shop{
+    align-items: center;
+    text-align: center;
+    text-emphasis:inherit;
+
+}

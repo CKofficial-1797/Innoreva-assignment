@@ -44,12 +44,13 @@ function App() {
        {/* <SignIn/> */}
         
        <Carosuel/>
+       <NewCircle/>
        <Brands/>
        <ShopFor/>         
      
        
        <Cards/>
-       <NewCircle/>
+      
        {/* <Collection/> */}
        <Drag />
        {/* <div className="text">
